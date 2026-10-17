@@ -1,0 +1,386 @@
+{
+ "_readme": "Curated 15 trending Robinhood Stock Tokens (chain 4663). Addresses are canonical Robinhood Chain stock tokens synced from Robinhood API via hoodfactory/config/stockTokens.json. NEVER hand-edit addresses; re-sync from Blockscout/Robinhood API.",
+ "chainId": 4663,
+ "quoteDefault": "WETH",
+ "tokens": [
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "address": "0x1b0E319c6A659F002271B69dB8A7df2F911c153E",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x1b0e319c6a659f002271b69db8a7df2f911c153e.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 1910,
+     "tickSpacing": 38
+    },
+    {
+     "kind": "usdg",
+     "fee": 2120,
+     "tickSpacing": 42
+    },
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xaf3d76f1834a1d425780943c99ea8a608f8a93f9.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "address": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x322f0929c4625ed5bad873c95208d54e1c003b2d.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    },
+    {
+     "kind": "direct",
+     "fee": 25000,
+     "tickSpacing": 500
+    }
+   ]
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "address": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec.png",
+   "routes": [
+    {
+     "kind": "direct",
+     "fee": 500,
+     "tickSpacing": 10
+    },
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "address": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x12f190a9f9d7d37a250758b26824b97ce941bf54.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    },
+    {
+     "kind": "direct",
+     "fee": 850000,
+     "tickSpacing": 17000
+    }
+   ]
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "address": "0x86923f96303D656E4aa86D9d42D1e57ad2023fdC",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x86923f96303d656e4aa86d9d42d1e57ad2023fdc.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "usdg",
+     "fee": 20000,
+     "tickSpacing": 400
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "address": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xc0d6457c16cc70d6790dd43521c899c87ce02f35.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "address": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xe93237c50d904957cf27e7b1133b510c669c2e74.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 100
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Class A",
+   "address": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "address": "0xE0444EF8BF4eD74f74FD73686e2ddF4C1c5591E8",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xe0444ef8bf4ed74f74fd73686e2ddf4c1c5591e8.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 100
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    },
+    {
+     "kind": "direct",
+     "fee": 48500,
+     "tickSpacing": 970
+    }
+   ]
+  },
+  {
+   "symbol": "COIN",
+   "name": "Coinbase",
+   "address": "0x6330D8C3178a418788dF01a47479c0ce7CCF450b",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x6330d8c3178a418788df01a47479c0ce7ccf450b.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "address": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "usdg",
+     "fee": 20000,
+     "tickSpacing": 400
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc.",
+   "address": "0xec262a75e413fAfD0dF80480274532C79D42da09",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xec262a75e413fafd0df80480274532c79d42da09.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 8250,
+     "tickSpacing": 165
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    },
+    {
+     "kind": "usdg",
+     "fee": 50000,
+     "tickSpacing": 1100
+    }
+   ]
+  },
+  {
+   "symbol": "RBLX",
+   "name": "Roblox",
+   "address": "0xF0C4BF4C582cb3836e98394b1d4e7B7281101bE8",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0xf0c4bf4c582cb3836e98394b1d4e7b7281101be8.png",
+   "routes": [
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF Trust",
+   "address": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
+   "decimals": 18,
+   "logoUrl": "https://cdn.robinhood.com/ncw_assets/logos/0x117cc2133c37b721f49de2a7a74833232b3b4c0c.png",
+   "routes": [
+    {
+     "kind": "usdg",
+     "fee": 3000,
+     "tickSpacing": 60
+    },
+    {
+     "kind": "usdg",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 10000,
+     "tickSpacing": 200
+    },
+    {
+     "kind": "direct",
+     "fee": 50000,
+     "tickSpacing": 1000
+    }
+   ]
+  }
+ ],
+ "swap": {
+  "_readme": "ETH->stock swap config. kind=direct: one V4 hop ETH->stock. kind=usdg: ETH->USDG via usdgHop, then USDG->stock. Routes are best-first from fork quotes (2026-07-27); the app must re-quote candidates at runtime and use the best. universalRouter is the MODIFIED Robinhood fork: ExactInputParams needs the extra uint256[] minHopPriceX36 field.",
+  "usdg": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+  "usdgDecimals": 6,
+  "usdgHop": {
+   "fee": 500,
+   "tickSpacing": 10
+  }
+ }
+}
